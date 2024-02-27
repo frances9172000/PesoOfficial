@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap"
+      rel="stylesheet"
+    />
+    <title>News</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-light d-block d-md-flex justify-content-center"
+    >
+      <div
+        class="nav-content px-4 d-flex align-items-center justify-content-between"
+      >
+        <div class="menu d-block d-md-none">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="links-sm d-block d-md-none">
+          <a class="c-link" href="/"><i class="fa fa-house"></i></a>
+          <a class="c-link" href="/about/history.html"
+            ><i class="fa fa-user"></i
+          ></a>
+          <a class="c-link" href="/news/index.html"
+            ><i class="fa fa-newspaper"></i
+          ></a>
+          <a class="c-link" href="index.html"
+            ><i class="fa fa-users"></i
+          ></a>
+        </div>
+
+        <a class="d-none d-md-block c-link mx-2" href="/"
+          ><i class="fa fa-house"></i> Home</a
+        >
+        <a class="d-none d-md-block c-link mx-2" href="/about/history.html"
+          ><i class="fa fa-user"></i> About</a
+        >
+        <a href=""
+          ><img class="img-xs m-0 c-link" src="../img/peso.png" alt="PESO Logo"
+        /></a>
+        <a class="d-none d-md-block c-link mx-2" href="/news/index.html"
+          ><i class="fa fa-newspaper"></i> News</a
+        >
+        <a class="d-none d-md-block c-link mx-2" href="index.html"
+          ><i class="fa fa-users"></i> Community</a
+        >
+      </div>
+    </nav>
+
+    <nav class="side-nav bg-c-primary d-block d-md-none">
+      <div class="text-end">
+        <span class="d-inline-block p-3 close-side-nav"
+          ><i class="fa fa-close"></i
+        ></span>
+      </div>
+      <h1 class="text-center bolder pt-3 pb-5 px-3">ParSU Economics Program</h1>
+      <div class="list-group">
+        <a href="" class="list-group-item border-0 bg-transparent"
+          ><i class="fa fa-question"></i> Help</a
+        >
+        <a href="" class="list-group-item border-0 bg-transparent"
+          ><i class="fa fa-bug"></i> Report Bug</a
+        >
+        <a href="" class="list-group-item border-0 bg-transparent"
+          ><i class="fa fa-sticky-note"></i> Terms and Condition</a
+        >
+        <a href="" class="list-group-item border-0 bg-transparent"
+          ><i class="fa fa-lock"></i> Privacy and Security</a
+        >
+      </div>
+      <p class="text-muted text-center py-3">Version 1.0.0</p>
+    </nav>
+
+    <div class="side-nav-backdrop bg-dark d-md-none"></div>
+
+    <div class="side-nav-backdrop bg-dark d-md-none"></div>
+    <section class="below-nav news-section container">
+      <div class="news-content row gx-4 py-3">
+        <div class="col-12 col-md-4">
+          <div class="news-links my-3 my-md-0">
+            <ul class="list-group">
+              <li class="news-link list-group-item p-0 active">
+                <a class="d-block c-link text-dark p-3" href="history.html"
+                  ><i class="fa fa-question"></i> Forum</a
+                >
+              </li>
+              <li class="news-link list-group-item p-0">
+                <a class="d-block c-link text-dark p-3" href="vgmo.html"
+                  ><i class="fa fa-info-circle"></i> Trivia</a
+                >
+              </li>
+            </ul>
+            <h5 class="py-3">Top Tags</h5>
+            <ul class="list-group">
+              <li class="news-link list-group-item p-0">
+                <a class="d-block c-link text-dark p-3" href="history.html"
+                  ><span class="badge bg-danger text-nm"
+                    ><i class="fa fa-fire"></i
+                  ></span>
+                  Economics</a
+                >
+              </li>
+              <li class="news-link list-group-item p-0 active">
+                <a class="d-block c-link text-dark p-3" href="history.html"
+                  ><span class="badge bg-secondary">2</span> Labor Economics</a
+                >
+              </li>
+              <li class="news-link list-group-item p-0">
+                <a class="d-block c-link text-dark p-3" href="vgmo.html"
+                  ><span class="badge bg-secondary">3</span> Macroeconomics</a
+                >
+              </li>
+              <li class="news-link list-group-item p-0">
+                <a class="d-block c-link text-dark p-3" href="vgmo.html"
+                  ><span class="badge bg-secondary">4</span> Microeconmics</a
+                >
+              </li>
+              <li class="news-link list-group-item p-0">
+                <a class="d-block c-link text-dark p-3" href="vgmo.html"
+                  ><span class="badge bg-secondary">5</span> Public Economics</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-8">
+          <div>
+            <div class="card my-2 bg-c-primary">
+              <h6 class="card-body bold">
+                <span class="badge bg-primary"
+                  ><i class="fa fa-question"></i> Help</span
+                >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </h6>
+            </div>
+            <div class="card my-2">
+              <div class="row g-0">
+                <div class="col-lg-3">
+                  <div class="card-body">
+                    <div class="d-lg-block d-flex justify-content-between">
+                      <div>
+                        <img
+                          class="img-lg m-lg-auto d-lg-block d-inline-block img-992px-lg"
+                          src="../img/peso.png"
+                          alt=""
+                        />
+                        <div class="d-lg-block d-inline-block">
+                          <div class="text-lg-center">User</div>
+                          <div class="text-center">
+                            <span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i
+                            ></span>
+                            <span class="badge bg-c-primary">5</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="text-center bold">Rank</div>
+                    </div>
+                    <div class="text-center py-2">
+                      <div>
+                        <a href="" class="badge text-light bg-secondary c-link"
+                          >economics</a
+                        >
+                        <a href="" class="badge text-light bg-secondary c-link"
+                          >public economics</a
+                        >
+                        <a href="" class="badge text-light bg-secondary c-link"
+                          >microeconomics</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9 bg-ligth">
+                  <div class="card-body bg-c-light">
+                    <div class="d-flex justify-content-between">
+                      <span class="text-muted text-sm"
+                        >Posted: December 20, 2022 8:00pm <br />
+                        Updated: December 20, 2022 8:00pm</span
+                      >
+                      <span class="text-muted">#1</span>
+                    </div>
+                    <div class="p-2">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Officiis dolorem perspiciatis inventore, illo sint, aut
+                      iste tempore reiciendis, distinctio corrupti nulla quis
+                      laboriosam iusto! In vero velit doloribus nostrum, enim
+                      aperiam libero nobis quas itaque nihil architecto nulla
+                      animi molestias aliquam reprehenderit expedita accusamus
+                      voluptate quibusdam, assumenda fugit. Deserunt sed at aut
+                      assumenda alias, aperiam minus placeat rerum vero pariatur
+                      maiores itaque facilis atque est fugit illum dolorum quo?
+                      Dignissimos, nisi minima officia consequatur dolor culpa
+                      veritatis accusantium animi doloribus. Totam facere saepe
+                      itaque, nam quaerat magni asperiores iusto sed praesentium
+                      dignissimos eos amet consequuntur nulla illum enim placeat
+                      corporis.
+                    </div>
+                  </div>
+                  <div class="card rounded-0">
+                    <div
+                      class="card-body d-flex align-items-center justify-content-between"
+                    >
+                      <a href="" class="btn btn-primary d-inline-block text-sm"
+                        ><i class="fa fa-reply"></i> Reply</a
+                      >
+                      <div class="ml-auto">
+                        <a
+                          href=""
+                          class="btn bg-c-primary c-link bolder text-c-secondary"
+                          href=""
+                          ><i class="fa fa-arrow-up"></i> 9999
+                        </a>
+                        <a
+                          href=""
+                          class="btn bg-danger c-link bolder text-light"
+                          ><i class="fa fa-arrow-down"></i> 9999
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card my-2">
+              <div class="row g-0">
+                <div class="col-lg-3">
+                  <div class="card-body">
+                    <div class="d-lg-block d-flex justify-content-between">
+                      <div>
+                        <img
+                          class="img-lg m-lg-auto d-lg-block d-inline-block img-992px-lg"
+                          src="../img/peso.png"
+                          alt=""
+                        />
+                        <div class="d-lg-block d-inline-block">
+                          <div class="text-lg-center">User</div>
+                          <div class="text-center">
+                            <span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i
+                            ></span>
+                            <span class="badge bg-c-primary">5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center bold">Rank</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9 bg-ligth border">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <span class="text-muted text-sm"
+                        >Posted: December 20, 2022 8:00pm <br />
+                        Updated: December 20, 2022 8:00pm</span
+                      >
+                      <span class="text-muted">#2</span>
+                    </div>
+                    <div class="p-2">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Officiis dolorem perspiciatis inventore, illo sint, aut
+                      iste tempore reiciendis, distinctio corrupti nulla quis
+                      laboriosam iusto! In vero velit doloribus nostrum, enim
+                      aperiam libero nobis quas itaque nihil architecto nulla
+                      animi molestias aliquam reprehenderit expedita accusamus
+                      voluptate quibusdam, assumenda fugit. Deserunt sed at aut
+                      assumenda alias, aperiam minus placeat rerum vero pariatur
+                      maiores itaque facilis atque est fugit illum dolorum quo?
+                      Dignissimos, nisi minima officia consequatur dolor culpa
+                      veritatis accusantium animi doloribus. Totam facere saepe
+                      itaque, nam quaerat magni asperiores iusto sed praesentium
+                      dignissimos eos amet consequuntur nulla illum enim placeat
+                      corporis.
+                    </div>
+                  </div>
+                  <div class="card rounded-0">
+                    <div
+                      class="card-body d-flex align-items-center justify-content-between"
+                    >
+                      <a href="" class="btn btn-primary d-inline-block text-sm"
+                        ><i class="fa fa-reply"></i> Reply</a
+                      >
+                      <div class="ml-auto">
+                        <a
+                          href=""
+                          class="btn bg-c-primary c-link bolder text-c-secondary"
+                          href=""
+                          ><i class="fa fa-arrow-up"></i> 9999
+                        </a>
+                        <a
+                          href=""
+                          class="btn bg-danger c-link bolder text-light"
+                          ><i class="fa fa-arrow-down"></i> 9999
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card my-2">
+              <div class="row g-0">
+                <div class="col-lg-3">
+                  <div class="card-body">
+                    <div class="d-lg-block d-flex justify-content-between">
+                      <div>
+                        <img
+                          class="img-lg m-lg-auto d-lg-block d-inline-block img-992px-lg"
+                          src="../img/peso.png"
+                          alt=""
+                        />
+                        <div class="d-lg-block d-inline-block">
+                          <div class="text-lg-center">User</div>
+                          <div class="text-center">
+                            <span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i></span
+                            ><span class="text-c-primary"
+                              ><i class="fa fa-star"></i
+                            ></span>
+                            <span class="badge bg-c-primary">5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center bold">Rank</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9 bg-ligth border">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <span class="text-muted text-sm"
+                        >Posted: December 20, 2022 8:00pm <br />
+                        Updated: December 20, 2022 8:00pm</span
+                      >
+                      <span class="text-muted">#3</span>
+                    </div>
+                    <div class="pt-2">
+                      <div class="card card-body bg-c-light my-1">
+                        <p>@User</p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ratione, nesciunt?
+                      </div>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Officiis dolorem perspiciatis inventore, illo sint, aut
+                      iste tempore reiciendis, distinctio corrupti nulla quis
+                      laboriosam iusto! In vero velit doloribus nostrum, enim
+                      aperiam libero nobis quas itaque nihil architecto nulla
+                      animi molestias aliquam reprehenderit expedita accusamus
+                      voluptate quibusdam, assumenda fugit. Deserunt sed at aut
+                      assumenda alias, aperiam minus placeat rerum vero pariatur
+                      maiores itaque facilis atque est fugit illum dolorum quo?
+                      Dignissimos, nisi minima officia consequatur dolor culpa
+                      veritatis accusantium animi doloribus. Totam facere saepe
+                      itaque, nam quaerat magni asperiores iusto sed praesentium
+                      dignissimos eos amet consequuntur nulla illum enim placeat
+                      corporis.
+                    </div>
+                  </div>
+                  <div class="card rounded-0">
+                    <div
+                      class="card-body d-flex align-items-center justify-content-between"
+                    >
+                      <a href="" class="btn btn-primary d-inline-block text-sm"
+                        ><i class="fa fa-reply"></i> Reply</a
+                      >
+                      <div class="ml-auto">
+                        <a
+                          href=""
+                          class="btn bg-c-primary c-link bolder text-c-secondary"
+                          href=""
+                          ><i class="fa fa-arrow-up"></i> 9999
+                        </a>
+                        <a
+                          href=""
+                          class="btn bg-danger c-link bolder text-light"
+                          ><i class="fa fa-arrow-down"></i> 9999
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav
+            class="d-flex justify-content-center my-5"
+            aria-label="navigation"
+          >
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-2 bg-c-secondary w-100">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-4 footer-reach-us d-none d-md-flex justify-content-center"
+          >
+            <div>
+              <a href=""
+                ><i class="fa fa-question"></i>
+                <p>Help</p></a
+              >
+              <a href=""
+                ><i class="fa fa-bug"></i>
+                <p>Report Bug</p></a
+              >
+              <a href=""
+                ><i class="fa fa-sticky-note"></i>
+                <p>Terms & conditions</p></a
+              >
+              <a href=""
+                ><i class="fa fa-lock"></i>
+                <p>Privacy & Security</p></a
+              >
+            </div>
+          </div>
+          <div class="peso-logo col-12 col-md-4 text-center">
+            <img
+              class="peso-logo-img d-inline img-xl"
+              src="./img/peso.png"
+              alt=""
+            />
+            <h4 class="bold peso-name text-c-primary">
+              ParSU Economics Students Organization
+            </h4>
+            <p class="text-light pt-2">
+              <i class="fa fa-location-dot"></i> San Juan Bautista, Goa,
+              Camarines Sur
+            </p>
+          </div>
+          <div class="footer-soc-med d-block d-md-none w-50 text-center m-auto">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fa fa-envelope"></i></a>
+          </div>
+          <div
+            class="peso-info col-12 col-md-4 d-none d-md-flex justify-content-center"
+          >
+            <div>
+              <a href="">
+                <i class="fab fa-facebook p-2"></i>
+                <p>/PESOofficialpage</p>
+              </a>
+              <a href="">
+                <i class="fab fa-twitter p-2"></i>
+                <p>ParSUPESO</p>
+              </a>
+              <a href="">
+                <i class="fab fa-instagram p-2"></i>
+                <p>parsu_peso</p>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope p-2"></i>
+                <p>peso@parsu.edu</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <p class="copyright text-center py-3 text-c-light">
+          PESO &copy; 2022 All Rights Reserved <br />
+          v1.0.0
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../index.js"></script>
+  </body>
+</html>

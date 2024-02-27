@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Global CSS */
+.bg-c-primary {
+  background-color: #ffc000;
+}
+
+.bg-c-secondary {
+  background-color: #153f26;
+}
+
+.bg-c-light {
+  background-color: #fdf8e7;
+}
+
+.bg-c-ccc {
+  background-color: #ccc;
+}
+
+.text-c-primary {
+  color: #ffc000;
+}
+
+.text-c-secondary {
+  color: #153f26;
+}
+
+.text-c-light {
+  color: #fdf8e7;
+}
+
+.text-c-ccc {
+  color: #ccc;
+}
+
+
+.text-sm {
+  font-size: 0.8rem;
+}
+
+.text-nm {
+  font-size: 1rem;
+}
+
+.text-md {
+  font-size: 1.5rem;
+}
+
+.text-lg {
+  font-size: 2rem;
+}
+
+.text-xlg {
+  font-size: 3rem;
+}
+
+.text-xxl {
+  font-size: 4rem;
+}
+
+.text-xxxl {
+  font-size: 5rem;
+}
+
+.font-primary {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.font-secondary {
+  font-family: Montserat, Arial, Helvetica, sans-serif;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 800;
+}
+
+.img-xxs {
+  height: 30px
+}
+
+.img-xs {
+  height: 50px
+}
+
+.img-nm {
+  height: 70px;
+}
+
+.img-md {
+  height: 90px;
+}
+
+.img-lg {
+  height: 130px;
+}
+
+.img-xl {
+  height: 150px;
+}
+
+.img-xxl {
+  height: 200px;
+}
+
+.below-nav {
+  margin-top: 70px;
+}
+
+.c-link {
+  text-decoration: none;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.construction {
+  display: block;
+  padding: 20px;
+  width: 70%;
+  opacity: 0.7;
+  margin: auto;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px #153f26;
+}
+
+.w-90 {
+  width:90%
+}
+
+/* Navbar */
+.menu {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu > div {
+  height: 4px;
+  width: 100%;
+  background-color: #153f26;
+  position: absolute;
+  transform: translate(0, -50%);
+  border-radius: 10px;
+}
+
+.menu > div:nth-child(1) {
+  top: 30%;
+  width: 80%;
+}
+
+.menu > div:nth-child(2) {
+  top: 50%;
+  width: 40%;
+}
+
+.menu > div:nth-child(3) {
+  top: 70%;
+  width: 55%;
+}
+
+.navbar {
+  background-color: #ffc000 !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 98;
+  padding: 0;
+}
+
+.nav-content {
+  height: 70px
+}
+
+.links-sm > a {
+  padding: 10px
+}
+
+.nav-content a,
+.nav-content .nav-link {
+  color: #153f26 !important;
+  font-weight: 600;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Sidebnav */
+.side-nav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  transform: translateX(-100%);
+  transition: 0.2s ease;
+}
+
+.side-nav-backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  opacity: 0.7;
+  display: none;
+}
+
+.close-side-nav {
+  cursor: pointer;
+}
+
+/* Showcase */
+.showcase .bg {
+  background-image: url(./img/bg1.jpg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.showcase .heading {
+  width: 100%;
+}
+
+.showcase .heading > h1 {
+  -webkit-text-stroke: 2px black;
+}
+
+.showcase .building {
+  background-image: url(./img/building.png);
+  height: 100px;
+}
+
+.showcase .soc-med a {
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: #ffff;
+  margin: 10px 20px;
+  font-weight: 800;
+  color: #1e5834;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.showcase .soc-med a:hover {
+  color: #ffff;
+  background-color: #1e5834;
+}
+
+/* Home Section */
+.home-section .headline {
+  max-width: 1200px;
+}
+
+.home-section .headline .carousel-item {
+  height: 200px;
+}
+
+.home-section .headline .carousel-img {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home-section .home-links {
+  overflow-x: auto;
+}
+
+.home-section .home-link {
+  cursor: pointer;
+}
+
+.home-section .home-link {
+  border: 1px solid #cccc;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 90%;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0px 0px 0px #ffc000;
+  transition: 0.2s ease;
+}
+
+.home-section .home-link.active {
+  border: none;
+  background-color: #153f26;
+  color: #ffff;
+  box-shadow: 0px 0px 10px #153f26;
+}
+
+.home-section .home-link:hover {
+  box-shadow: 0px 0px 10px #153f26;
+}
+
+.home-section .home-link p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.home-section .home-link h1 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.home-section .home-link-content {
+  display: none
+}
+
+.home-section .home-link-content.active {
+  display: block
+}
+
+/* Footer */
+.footer-soc-med a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fdf8e7;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 5px 0 5px;
+}
+
+footer .row > div {
+  padding: 10px 0 10px 0
+}
+
+footer .peso-info i, footer .peso-info p {
+  color: #fdf8e7 
+}
+
+footer .row > div > div > a  {
+  text-decoration: none;
+  color: #fdf8e7
+}
+
+footer .row > div > div > a i  {
+  border: 2px solid #fdf8e7;
+  border-radius: 50%;
+  font-size: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; 
+  width: 50px
+}
+
+footer .row > div > div > a  {
+  display: block;
+  padding: 7px
+}
+
+footer .row > div > div > a p {
+  font-size: 1rem;
+  display: inline;
+}
+
+.contact-us-content .form-container {
+  border: 1px solid #ccc
+}
+
+.contact-us-content .form-container {
+  border: 1px solid #ccc
+}
+
+/* About Page */
+.about-section .about-link.active, .news-section .news-link.active {
+  background-color: #153f26;
+  color: #fdf8e7
+}
+
+.about-section .about-link.active a, .news-section .news-link.active a {
+  color: #fdf8e7 !important
+}
+
+
+@media(max-width: 600px) {
+  .img-600px {
+    height: 30px
+  }
+
+  .img-600px-lg {
+    height: 50px
+  }
+
+  .text-600px {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 992px) {
+  .img-992px{
+    height: 30px
+  }
+  .img-992px-lg {
+    height: 50px
+  }
+
+  .text-992px {
+    font-size: 1rem;
+  }
+}

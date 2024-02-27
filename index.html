@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-light d-block d-md-flex justify-content-center"
+    >
+      <div class="nav-content px-4 d-flex align-items-center justify-content-between">
+        <div class="menu d-block d-md-none">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="links-sm d-block d-md-none">
+          <a class="c-link" href="/"
+            ><i class="fa fa-house"></i></a
+          >
+          <a class="c-link" href="about/history.html"
+            ><i class="fa fa-user"></i></a
+          >
+          <a class="c-link" href="/news/index.html"
+            ><i class="fa fa-newspaper"></i></a
+          >
+          <a class="c-link" href="/community/index.html"
+            ><i class="fa fa-users"></i></a
+          >
+        </div>
+
+        <a class="d-none d-md-block c-link mx-2" href="/"
+          ><i class="fa fa-house"></i> Home</a
+        >
+        <a class="d-none d-md-block c-link mx-2" href="about/history.html"
+          ><i class="fa fa-user"></i> About</a
+        >
+        <a href=""
+          ><img class="img-xs m-0 c-link" src="./img/peso.png" alt="PESO Logo"
+        /></a>
+        <a class="d-none d-md-block c-link mx-2" href="/news/index.html"
+          ><i class="fa fa-newspaper"></i> News</a
+        >
+        <a class="d-none d-md-block c-link mx-2" href="/community/index.html"
+          ><i class="fa fa-users"></i> Community</a
+        >
+      </div>
+    </nav>
+
+    <nav class="side-nav bg-c-primary d-block d-md-none">
+      <div class="text-end">
+        <span class="d-inline-block p-3 close-side-nav"
+          ><i class="fa fa-close "></i
+        ></span>
+      </div>
+      <h1 class="text-center bolder pt-3 pb-5 px-3">ParSU Economics Program</h1>
+      <div class="list-group">
+        <a href="" class="list-group-item border-0 bg-transparent"
+          ><i class="fa fa-question"></i> Help</a
+        >
+        <a href="" class="list-group-item border-0 bg-transparent"
+          ><i class="fa fa-bug"></i> Report Bug</a
+        >
+        <a href="" class="list-group-item border-0 bg-transparent"
+          ><i class="fa fa-sticky-note"></i> Terms and Condition</a
+        >
+        <a href="" class="list-group-item border-0 bg-transparent"
+          ><i class="fa fa-lock"></i> Privacy and Security</a
+        >
+      </div>
+      <p class="text-muted text-center py-3">Version 1.0.0</p>
+    </nav>
+
+    <div class="side-nav-backdrop bg-dark d-md-none"></div>
+
+    <main class="below-nav showcase text-center position-relative">
+      <div class="bg bg-no-repeat bg-cover bg-center"></div>
+      <div class="container content pt-4">
+        <div class="heading d-flex justify-content-center align-items-center">
+          <img class="px-2 img-nm" src="./img/psu.png" alt="" />
+          <h1 class="m-0 font-secondary text-c-primary bolder">
+            PARSU ECONOMICS PROGRAM
+          </h1>
+          <img class="px-2 img-nm" src="./img/pie.png" alt="" />
+        </div>
+
+        <div class="account my-3">
+          <a class="login-btn bg-c-secondary btn bold text-light" href=""
+            >Sign-up <i class="fa fa-user-plus"></i
+          ></a>
+          <a class="login-btn btn btn-light bold" href=""
+            ><i class="fa fa-login"></i>Log-In <i class="fa fa-sign-in"></i
+          ></a>
+        </div>
+
+        <div class="soc-med mb-2">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fa fa-envelope"></i></a>
+        </div>
+        <div class="building w-100 bg-no-repeat bg-contain bg-center"></div>
+      </div>
+    </main>
+
+    <section class="home-section container my-2">
+      <div class="headline my-3 rounded bg-c-light">
+
+      </div>
+
+      <div class="home-content row gx-4">
+        <div class="col-12 col-md-4">
+          <div class="home-links d-flex d-md-block my-2">
+            <a class="home-link overview active">
+              <img class="img-nm img-600px" src="./img/icon1.svg" alt="" />
+              <p class="d-none d-md-block">Overview</p>
+            </a>
+            <a class="home-link d&g">
+              <img class="img-nm img-600px" src="./img/icon3.svg" alt="" />
+              <p class="d-none d-md-block">Development & Growth</p>
+            </a>
+            <a class="home-link study-area">
+              <img class="img-nm img-600px" src="./img/icon5.svg" alt="" />
+              <p class="d-none d-md-block">Study Area</p>
+            </a>
+            <a class="home-link faqs">
+              <img class="img-nm img-600px" src="./img/icon6.svg" alt="" />
+              <p class="d-none d-md-block">FAQs</p>
+            </a>
+            <a class="home-link contacts faqs">
+              <img class="img-nm img-600px" src="./img/icon7.svg" alt="" />
+              <p class="d-none d-md-block">Contact Us</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-8">
+          <div class="home-links-content my-2">
+            <div
+              id="overview"
+              class="overview-content home-link-content active"
+            >
+              <div class="card text-bg-light">
+                <div class="card-header">
+                  <h1 class="bold">What is Economics?</h1>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt laudantium illum nobis quisquam rem modi earum sit
+                    inventore distinctio perferendis reiciendis dolores porro
+                    vero labore quas perspiciatis quaerat nostrum, dicta
+                    numquam! Error est iure excepturi ipsum dolorum, atque
+                    repudiandae. Delectus autem nam quos recusandae dolor
+                    laudantium deleniti voluptates nobis inventore!
+                  </p>
+                </div>
+              </div>
+
+              <div class="card my-5">
+                <img src="./img/psau-img.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-center bold">
+                    BS in Economics at Partido State University
+                  </h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur eligendi modi incidunt molestiae rem consequuntur
+                    voluptate perferendis, maiores blanditiis quaerat non
+                    voluptatem odio ipsa, placeat eius hic id quibusdam,
+                    veritatis saepe voluptas consequatur corporis fugiat.
+                    Architecto sed, iusto unde qui esse culpa perferendis aut
+                    aliquam natus? Voluptate blanditiis placeat voluptatem.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion my-5" id="accordion-support">
+                <h1 class="text-muted">SUPPORTED BY</h1>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne-support">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne-support"
+                      aria-expanded="false"
+                      aria-controls="collapseOne-support"
+                    >
+                      <img
+                        class="img-md"
+                        src="./img/psu.png"
+                        alt=""
+                        srcset=""
+                      />
+                      <h1 class="m-2">Partido State University</h1>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne-support"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne-support"
+                    data-bs-parent="#accordion-support"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur id dolores iure? Dicta, libero voluptatibus
+                        sunt tempora, cupiditate quam perferendis eaque autem
+                        incidunt ex repellat natus repudiandae in. Quaerat
+                        deserunt facere dolore soluta. Recusandae nostrum
+                        eveniet optio eos explicabo quos blanditiis magnam
+                        ullam? Explicabo vero ea aperiam, iure veritatis facere.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo-support">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo-support"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo-support"
+                    >
+                      <img
+                        class="img-md"
+                        src="./img/cbm.png"
+                        alt=""
+                        srcset=""
+                      />
+                      <h1 class="m-2">College of Business and Management</h1>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo-support"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo-support"
+                    data-bs-parent="#accordion-support"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur id dolores iure? Dicta, libero voluptatibus
+                        sunt tempora, cupiditate quam perferendis eaque autem
+                        incidunt ex repellat natus repudiandae in. Quaerat
+                        deserunt facere dolore soluta. Recusandae nostrum
+                        eveniet optio eos explicabo quos blanditiis magnam
+                        ullam? Explicabo vero ea aperiam, iure veritatis facere.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree-support">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree-support"
+                      aria-expanded="false"
+                      aria-controls="collapseThree-support"
+                    >
+                      <img
+                        class="img-md"
+                        src="./img/pie.png"
+                        alt=""
+                        srcset=""
+                      />
+                      <h1 class="m-2">Partido Institute of Economics</h1>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree-support"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree-support"
+                    data-bs-parent="#accordion-support"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Modi, ratione incidunt. Tenetur aliquid impedit,
+                        animi, eligendi odio perferendis nulla velit ea quo
+                        distinctio inventore rem, rerum illum. Magni tempora
+                        nemo beatae voluptate maxime temporibus laborum
+                        deserunt, quam mollitia laudantium cum dolor debitis at
+                        repudiandae necessitatibus ipsum quaerat delectus
+                        voluptatum magnam.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour-support">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour-support"
+                      aria-expanded="false"
+                      aria-controls="collapseFour-support"
+                    >
+                      <img
+                        class="img-md"
+                        src="./img/peso.png"
+                        alt=""
+                        srcset=""
+                      />
+                      <h1 class="m-2">ParSU Economics Students Organization</h1>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour-support"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour-support"
+                    data-bs-parent="#accordion-support"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impedit architecto eligendi sit eveniet, modi quia magni
+                        porro facilis hic repellendus numquam assumenda rerum
+                        rem! Quos sunt sapiente commodi ea veniam facere quidem
+                        quo, quisquam enim blanditiis consequuntur atque
+                        adipisci esse fugit natus voluptate aspernatur! In
+                        voluptatem rerum sapiente cumque porro!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="my-5">
+                <h1 class="text-muted">CAREERS</h1>
+                <video width="100%" controls>
+                  <source src="./video/video1.mp4" type="video/mp4" />
+                </video>
+                <img class="w-100" src="./img/flyer.jpg" alt="" srcset="" />
+              </div>
+            </div>
+
+            <div
+              id="development&growth"
+              class="d&g-content home-link-content my-2"
+            >
+              <img class="construction" src="./img/construction.png" alt="" />
+            </div>
+
+            <div id="study-area" class="study-area home-link-content my-2">
+              <img class="construction" src="./img/construction.png" alt="" />
+            </div>
+
+            <div id="faqs" class="faqs-content home-link-content my-2">
+              <h1 class="text-muted">Frequently Ask Questions</h1>
+              <div class="accordion my-3" id="accordion-faqs">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne-faqs">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne-faqs"
+                      aria-expanded="false"
+                      aria-controls="collapseOne-faqs"
+                    >
+                      <h6 class="m-2">Question #1</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne-faqs"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne-faqs"
+                    data-bs-parent="#accordion-faqs"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur id dolores iure? Dicta, libero voluptatibus
+                        sunt tempora, cupiditate quam perferendis eaque autem
+                        incidunt ex repellat natus repudiandae in. Quaerat
+                        deserunt facere dolore soluta. Recusandae nostrum
+                        eveniet optio eos explicabo quos blanditiis magnam
+                        ullam? Explicabo vero ea aperiam, iure veritatis facere.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo-faqs">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo-faqs"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo-faqs"
+                    >
+                      <h6 class="m-2">Question #2</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo-faqs"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo-faqs"
+                    data-bs-parent="#accordion-faqs"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur id dolores iure? Dicta, libero voluptatibus
+                        sunt tempora, cupiditate quam perferendis eaque autem
+                        incidunt ex repellat natus repudiandae in. Quaerat
+                        deserunt facere dolore soluta. Recusandae nostrum
+                        eveniet optio eos explicabo quos blanditiis magnam
+                        ullam? Explicabo vero ea aperiam, iure veritatis facere.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree-faqs">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree-faqs"
+                      aria-expanded="false"
+                      aria-controls="collapseThree-faqs"
+                    >
+                      <h6 class="m-2">Question #3</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree-faqs"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree-faqs"
+                    data-bs-parent="#accordion-faqs"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Modi, ratione incidunt. Tenetur aliquid impedit,
+                        animi, eligendi odio perferendis nulla velit ea quo
+                        distinctio inventore rem, rerum illum. Magni tempora
+                        nemo beatae voluptate maxime temporibus laborum
+                        deserunt, quam mollitia laudantium cum dolor debitis at
+                        repudiandae necessitatibus ipsum quaerat delectus
+                        voluptatum magnam.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour-faqs">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour-faqs"
+                      aria-expanded="false"
+                      aria-controls="collapseFour-faqs"
+                    >
+                      <h6 class="m-2">Question #4</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour-faqs"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour-faqs"
+                    data-bs-parent="#accordion-faqs"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impedit architecto eligendi sit eveniet, modi quia magni
+                        porro facilis hic repellendus numquam assumenda rerum
+                        rem! Quos sunt sapiente commodi ea veniam facere quidem
+                        quo, quisquam enim blanditiis consequuntur atque
+                        adipisci esse fugit natus voluptate aspernatur! In
+                        voluptatem rerum sapiente cumque porro!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive-faqs">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive-faqs"
+                      aria-expanded="false"
+                      aria-controls="collapseFive-faqs"
+                    >
+                      <h6 class="m-2">Question #5</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive-faqs"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFive-faqs"
+                    data-bs-parent="#accordion-faqs"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impedit architecto eligendi sit eveniet, modi quia magni
+                        porro facilis hic repellendus numquam assumenda rerum
+                        rem! Quos sunt sapiente commodi ea veniam facere quidem
+                        quo, quisquam enim blanditiis consequuntur atque
+                        adipisci esse fugit natus voluptate aspernatur! In
+                        voluptatem rerum sapiente cumque porro!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="contact-us"
+              class="contact-us-content home-link-content my-2"
+            >
+              <h1 class="text-muted">Contact Us</h1>
+              <div class="form-container rounded p-3 my-3">
+                <form>
+                  <div class="form-group my-3">
+                    <label for="email">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name..."
+                    />
+                  </div>
+                  <div class="form-group my-3">
+                    <label for="email">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Your Email..."
+                    />
+                  </div>
+                  <div class="form-group my-3">
+                    <label for="exampleFormControlInput1">Your Message</label>
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="7"
+                      placeholder="Type Your Query Here..."
+                    ></textarea>
+                  </div>
+                  <input
+                    type="submit"
+                    class="form-control btn btn-primary"
+                    placeholder="Submit"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-2 bg-c-secondary w-100">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-4 footer-reach-us d-none d-md-flex justify-content-center"
+          >
+            <div>
+              <a href=""
+                ><i class="fa fa-question"></i>
+                <p>Help</p></a
+              >
+              <a href=""
+                ><i class="fa fa-bug"></i>
+                <p>Report Bug</p></a
+              >
+              <a href=""
+                ><i class="fa fa-sticky-note"></i>
+                <p>Terms & conditions</p></a
+              >
+              <a href=""
+                ><i class="fa fa-lock"></i>
+                <p>Privacy & Security</p></a
+              >
+            </div>
+          </div>
+          <div class="peso-logo col-12 col-md-4 text-center">
+            <img
+              class="peso-logo-img d-inline img-xl"
+              src="./img/peso.png"
+              alt=""
+            />
+            <h4 class="bold peso-name text-c-primary">
+              ParSU Economics Students Organization
+            </h4>
+            <p class="text-light pt-2">
+              <i class="fa fa-location-dot"></i> San Juan Bautista, Goa,
+              Camarines Sur
+            </p>
+          </div>
+          <div class="footer-soc-med d-block d-md-none w-50 text-center m-auto">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fa fa-envelope"></i></a>
+          </div>
+          <div
+            class="peso-info col-12 col-md-4 d-none d-md-flex justify-content-center"
+          >
+            <div>
+              <a href="">
+                <i class="fab fa-facebook p-2"></i>
+                <p>/PESOofficialpage</p>
+              </a>
+              <a href="">
+                <i class="fab fa-twitter p-2"></i>
+                <p>ParSUPESO</p>
+              </a>
+              <a href="">
+                <i class="fab fa-instagram p-2"></i>
+                <p>parsu_peso</p>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope p-2"></i>
+                <p>peso@parsu.edu</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <p class="copyright text-center py-3 text-c-light">
+          PESO &copy; 2022 All Rights Reserved <br />
+          v1.0.0
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
